@@ -52,13 +52,13 @@
 		raise_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
-// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  PGUP| HOME  |   ^   |  END |   0   |       |
+// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  PGUP| HOME  |   ^   |  END | BSPC  |       |
 // |   F1  |  F2 |  F3 |  F4  | LATL |  F6  |                   |PGDOWN|   <-  |   \/  |  ->  |  ->   |       |
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   | TAB   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans         &trans      &trans    &trans    &trans    &trans
-&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp PAGE_UP    &kp HOME    &kp UP    &kp END   &kp N0    &trans
+&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp PAGE_UP    &kp HOME    &kp UP    &kp END   &kp BSPC    &trans
 &kp F1    &kp F2 &kp F3 &kp F4  &kp LALT  &kp F6                     &kp PAGE_DOWN  &kp LEFT    &kp DOWN  &kp RIGHT &kp RIGHT &trans
 &kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS    &kp TAB 	&kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
